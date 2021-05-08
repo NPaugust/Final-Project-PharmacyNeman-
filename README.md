@@ -2,7 +2,8 @@
 
 #Android Application
 ~Phermacy Neman~
-#Screenshot: https://user-images.githubusercontent.com/72886935/117551473-014f6580-b068-11eb-9518-79b5df8802f5.png
+#Screenshot of design: ![image](https://user-images.githubusercontent.com/72886935/117552440-1b3f7700-b06d-11eb-8b6b-e03e71910443.png)
+
 
 #Trello: https://trello.com/b/X80jc4qC/finalproject
 
