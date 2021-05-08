@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="15dp"
+    android:elevation="5dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/capsules"
+            android:layout_width="102dp"
+            android:layout_height="84dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/capsules" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/semibold"
+            android:text="Capsules"
+            android:textColor="#091020"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/orangetext"
+            app:layout_constraintTop_toBottomOf="@+id/orangetext" />
+
+        <TextView
+            android:id="@+id/kolvo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/semibold"
+            android:text="15 types"
+            android:textColor="#FF6813"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/available"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/orangetext"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/ic_heart"
+            android:backgroundTint="#0D7E00"
+            android:fontFamily="@font/regular"
+            android:textColor="#0929FF"
+            app:layout_constraintStart_toEndOf="@+id/capsules"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/imeetsya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/regular"
+            android:text="available"
+            android:textColor="#091020"
+            app:layout_constraintBottom_toBottomOf="@+id/available"
+            app:layout_constraintStart_toEndOf="@+id/available"
+            app:layout_constraintTop_toTopOf="@+id/available" />
+
+        <ImageView
+            android:id="@+id/available"
+            android:layout_width="37dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/name"
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            app:srcCompat="@drawable/plus" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

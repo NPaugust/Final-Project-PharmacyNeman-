@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="FinalProject">FinalProject</string>
+    <string name="teraflu">Teraflu</string>
+    <string name="anti_flu">Anti-Flu</string>
+    <string name="_1_05">$6.05</string>
+    <string name="_4_5">4.5</string>
+    <string name="_6_05">$6.05</string>
+    <string name="float_cake_vietnam">Float Cake Vietnam</string>
+    <string name="todo">TODO</string>
+</resources>
