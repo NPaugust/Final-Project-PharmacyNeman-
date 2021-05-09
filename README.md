@@ -2,7 +2,7 @@ Final Group Project Java.
 
 Android Application
 
-Phermacy Neman
+Pharmacy Neman
 
 Screenshot of design: (https://user-images.githubusercontent.com/72886935/117552476-622d6c80-b06d-11eb-86ae-b7fec13a75a7.png)
 
