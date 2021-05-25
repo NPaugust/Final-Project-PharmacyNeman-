@@ -6,7 +6,7 @@ Pharmacy Neman
 
 Screenshot of design: ![](https://user-images.githubusercontent.com/72886935/117552476-622d6c80-b06d-11eb-86ae-b7fec13a75a7.png)
 
-Video of design: [![Watch the video]https://user-images.githubusercontent.com/72886935/117553060-0d8bf080-b071-11eb-838e-83032a187ec6.MOV
+Video of design: ![]https://user-images.githubusercontent.com/72886935/117553060-0d8bf080-b071-11eb-838e-83032a187ec6.MOV
 
 
 
